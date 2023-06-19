@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+}
+
+.container {background-color:none;
+    list-style-type:georgian;
+}
+img{
+    border-radius: 20px ;
+}
+.container :before {
+    content: " ";
+    position:absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #111111
+}
+h1{
+    color: #10097059;
+}
